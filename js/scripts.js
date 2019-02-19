@@ -33,3 +33,16 @@ var track = function(first, second, third){
       document.getElementById("result").innerHTML = "The dimensions " + isArray + " form an " + triangle + " triangle!";
 
     }
+
+    //Checking for a scalene triangle
+    else{
+      var triangle = "Scalene";
+      var scArray = [];
+      scArray.push(first);
+      scArray.push(second);
+      scArray.push(third);
+
+      document.getElementById("result").innerHTML = "The dimensions " + scArray + " form a " + triangle + " triangle!";
+
+    }
+  }
