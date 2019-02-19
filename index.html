@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type = "text/css" href="css/styles.css">
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div id="bg">
+        <img src="images/bg.jpg" alt="">
+    </div>
+    <div class="title">
+        <h1>Triangle Tracker</h1>
+    </div>
+
+    <form>
+      <label for="firstl">Enter the First Length:</label>
+      <input type="number" name="first" id = "firstl">
+
+      <label for="secondl">Enter the Second Length:</label>
+      <input type="number" name="second" id = "secondl">
+
+      <label for="thirdl">Enter the Third Length:</label>
+      <input type="number" name="third" id ="thirdl">
+
+      <button type="button" onclick="track()"><strong>Find Out!</strong></button>
+      <button type="reset" onclick="reseting()" id = "reset"><strong>Reset All!</strong></button>
+    </form>
+
+    <span id = "result"></span>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
