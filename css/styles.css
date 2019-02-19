@@ -12,3 +12,17 @@ body{
   transform: translate(-50%, -50%);
   color: white;
 }
+
+*{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  padding: 10px;
+  padding-top: 40px;
+  text-decoration: underline;
+  font-size: xx-large;
+  font-family: sans-serif;
+  color: maroon;
+}
