@@ -46,3 +46,15 @@ var track = function(first, second, third){
 
     }
   }
+
+  //Result if the triangle test has failed to print no triangle
+   else{
+     var triangle = "NO triangle at all";
+     var noArray = [];
+     noArray.push(first);
+     noArray.push(second);
+     noArray.push(third);
+
+     document.getElementById("result").innerHTML = "The dimensions " + noArray + " form " + triangle;
+  }
+ }
