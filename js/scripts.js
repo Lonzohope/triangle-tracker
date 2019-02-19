@@ -21,3 +21,15 @@ var track = function(first, second, third){
       document.getElementById("result").innerHTML = "The dimensions " + eqArray + " form an " + triangle + " triangle!";
 
     }
+
+    //Checking for an Isosceles triangle
+    else if(first === second || first === third || second === third){
+      var triangle = "Isosceles";
+      var isArray = [];
+      isArray.push(first);
+      isArray.push(second);
+      isArray.push(third);
+
+      document.getElementById("result").innerHTML = "The dimensions " + isArray + " form an " + triangle + " triangle!";
+
+    }
