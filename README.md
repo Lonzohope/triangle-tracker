@@ -36,5 +36,5 @@ JavaScript for business logic
 
 ### License
 
-The MIT License (MIT)
-Copyright (c) 2019**MainaMurage**
+* [MIT LICENSE](LICENSE)
+Copyright (c) {2019} **{MainaMurage}**
