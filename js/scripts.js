@@ -56,5 +56,10 @@ var track = function(first, second, third){
      noArray.push(third);
 
      document.getElementById("result").innerHTML = "The dimensions " + noArray + " form " + triangle;
-  }
+}
+ }
+
+//Function to clear the page of images and result message
+ var reseting = function(){
+   document.getElementById("result").innerHTML = "";
  }
