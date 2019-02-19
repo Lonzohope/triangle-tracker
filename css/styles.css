@@ -46,3 +46,14 @@ button{
   margin-top: 10px;
   padding: 5px;
 }
+
+#reset{
+  margin-bottom: 20px;
+  float: none;
+}
+
+#result{
+  margin: : 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
