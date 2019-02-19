@@ -5,7 +5,7 @@
 
 ## Description
 
-This is a project that can be used to try and evaluate if certain dimensions can be used to make triangles and what kind of triangles they form. All that the user needs to do is input his or her dimensions and then the program responds by telling her what kind of triangle they have made.
+This is a project that can be used to evaluate if certain dimensions can be used to make triangles and what kind of triangles they form. All that the user needs to do is input his or her dimensions and then the program responds by telling her what kind of triangle they have made.
 
 ## BDD
 
